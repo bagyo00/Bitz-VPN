@@ -839,7 +839,7 @@ select.form-control {
     // Constants
     const DEFAULT_PROXY_BANK_URL = 'https://raw.githubusercontent.com/h58fmb0344g9h3/p57gdv3j3n0vg334/refs/heads/main/f74bjd2h2ko99f3j5';
     const PROXY_CHECK_API_URL = 'https://apicek.t-me-inconigto.workers.dev/proxy';
-    // const PATH_PREFIX = '/Free/kawel-vpn'; // Hardcoded path prefix
+    // const PATH_PREFIX = '/Free/Kawel-VPN'; // Hardcoded path prefix
     
     // Helper Functions
     function generateUUIDv4() {
@@ -892,7 +892,7 @@ select.form-control {
             net: "ws",
             type: "zero",
             host: host,
-            path: `/Free/kawel-vpn/${PATH_PREFIX}/${proxyHost}-${proxyPort}`,
+            path: `/Free/Kawel-VPN/${PATH_PREFIX}/${proxyHost}-${proxyPort}`,
             tls: tls ? "tls" : "none",
             sni: sni,
             fp: "randomized"
@@ -973,7 +973,7 @@ select.form-control {
   network: ws
   servername: ${sni}
   ws-opts:
-    path: /Free/kawel-vpn${PATH_PREFIX}/${proxyHost}-${proxyPort}
+    path: /Free/Kawel-VPN${PATH_PREFIX}/${proxyHost}-${proxyPort}
     headers:
       Host: ${host}`;
 }
@@ -1009,7 +1009,7 @@ select.form-control {
   plugin-opts:
     mode: websocket
     host: ${host}
-    path: /Free/kawel-vpn/${PATH_PREFIX}/${proxyHost}-${proxyPort}
+    path: /Free/Kawel-VPN/${PATH_PREFIX}/${proxyHost}-${proxyPort}
     tls: ${tls}
     mux: false
     skip-cert-verify: true
@@ -1034,7 +1034,7 @@ select.form-control {
   servername: ${sni}
   network: ws
   ws-opts:
-    path: /Free/kawel-vpn/${PATH_PREFIX}/${proxyHost}-${proxyPort}
+    path: /Free/Kawel-VPN/${PATH_PREFIX}/${proxyHost}-${proxyPort}
     headers:
       Host: ${host}
   udp: true`;
